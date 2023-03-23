@@ -1,0 +1,32 @@
+img{
+    width: 100px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    color: bisque;
+}
+ul{
+    margin-left:50px;
+}
+li{
+    margin-left:30px;
+    margin-right: 30px;
+    padding:5px;
+    /* border-radius:40px; */
+}
+.menucitos{
+    justify-content: end;
+}
+li:hover{
+    background-color: rgb(107, 32, 42);
+    color:rgb(94, 51, 94);
+    transition: 1s;
+    opacity: 0.9;
+    
+}
+nav{
+    background-image: url("https://i.postimg.cc/ZRDN3RDG/banner1.jpg");
+    background-size:cover;
+    position: sticky;
+    top:0;
+}

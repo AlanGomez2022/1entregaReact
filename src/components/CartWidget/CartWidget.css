@@ -1,0 +1,23 @@
+span{
+    padding:10px;
+    color: white;
+    border-radius: 10px;
+}
+span:hover{
+    background-color: rgb(92, 32, 107);
+    transition: 1s;
+    opacity: 0.7;
+
+}
+.carrito{
+    color:white;
+    position: relative;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cantCompra{
+    background-color:darkblue;
+    border-radius: 50px;
+    font-weight: bolder ;
+}
